@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>ByteBank.SistemaAgencia</RootNamespace>
     <AssemblyName>ByteBank.SistemaAgencia</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estagiario.cs" />
+    <Compile Include="ExtratorValorDeArgumentosURL.cs" />
+    <Compile Include="ListaDeContaCorrentes.cs" />
+    <Compile Include="Listas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
